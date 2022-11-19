@@ -6,8 +6,12 @@ import { Component } from '@angular/core';
   // class
   // selector: '.app-test',
 
-  templateUrl: './test.component.html',
-  styleUrls: ['./test.component.css']
+  // templateUrl: './test.component.html',
+  template: `<div>Inline template</div>`,
+  // styleUrls: ['./test.component.css']
+  styles: [`div {
+    color: red;
+  }`]
 })
 export class TestComponent {
 
